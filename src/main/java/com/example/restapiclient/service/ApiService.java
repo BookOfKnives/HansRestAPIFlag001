@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ApiService {
-   final String API = "https://jimmyflag.azurewebsites.net/findFlag"; // find ud  af, hvilket IP + port
+   final String API = "https://simonpipelinedemo.azurewebsites.net"; // find ud  af, hvilket IP + port
   // final String API = "http://localhost:8081/findFlag"; // find ud  af, hvilket IP + port
     RestTemplate restTemplate = new RestTemplate();
 
